@@ -24,4 +24,9 @@ main .destaque-principal .container .descricao{
 
 }
 
+.rodape .descricao-rodape{
+    font-size: 12px;
+    text-align: justify;
+}
+
 }
