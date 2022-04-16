@@ -1,0 +1,27 @@
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+    }    
+}
+
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+
+}
+
+main .destaque-principal .container .titulo{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .destaque-principal .container .descricao{
+    font-size: 15px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 0 0 10px;
+
+}
+
+}
