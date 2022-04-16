@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,23 +15,125 @@
     <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
     <!--fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Alumni+Sans+Inline+One&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aldrich&family=Alumni+Sans+Inline+One&family=Ubuntu:wght@300;500;700&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
 
     <header>
         <div class="container">
-            <h2 class="logocabecalho">GAMEFLIX</h2>
+            <h2 class="logocabecalho">GAMEFLIX <i class="fa-solid fa-headset"></i></h2>
             <nav class="navcabecalho">
-                <a href="#"><i class="fa-solid fa-desktop"></i> PC</a>
-                <a href="#"><i class="fa-brands fa-xbox"></i> XBOX</a>
-                <a href="#"><i class="fa-brands fa-playstation"></i> PS4</a>
+                <a href="#games-pc"><i class="fa-solid fa-desktop"></i> PC</a>
+                <a href="#games-xbox"><i class="fa-brands fa-xbox"></i> XBOX</a>
+                <a href="#games-ps4"><i class="fa-brands fa-playstation"></i> PS4</a>
             </nav>
         </div>
     </header>
-    
+
+    <main>
+
+        <div class="destaque-principal">
+            <div class="container">
+                <h3 class="titulo">DIABLO 2 RESSURECTED</h3>
+                <p class="descricao">O jogo mais esperado de 2022.</p>
+                <p class="leia-mais">LEIA MAIS</p>
+            </div>
+        </div>
+    </main>
+
+    <section id="games-pc">
+        <div class="carrosel-games-pc">
+            <div class="carrosel-titulo">
+                <h3><i class="fa-solid fa-desktop"></i> PC</h3>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-game-pc" src="img/csgo.jpg" alt="cs go">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/horizon-scaled.jpg" alt="cs go">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/metal gear.jpg" alt="cs go">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/diablo2.jpg" alt="cs go">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/oxigen.jpg" alt="cs go">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games-xbox">
+        <div class="carrosel-games-xbox">
+            <div class="carrosel-titulo">
+                <h3><i class="fa-brands fa-xbox"></i> XBOX</h3>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-game-pc" src="img/xbox crackdown.jpg" alt="cs go">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/xbox dead rising.jpg" alt="cs go">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/xbox fable.jpg" alt="cs go">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/xbox forza.jpg" alt="cs go">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/xbox gears.jpg" alt="cs go">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="games-ps4">
+        <div class="carrosel-games-ps4">
+            <div class="carrosel-titulo">
+                <h3><i class="fa-brands fa-playstation"></i> PS4</h3>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-game-pc" src="img/ps4 bf.jpg" alt="bf">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/ps4 homem aranha.jpg" alt="homem aranha">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/ps4 kratos.jpg" alt="god of war">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/ps4 minecraft.jpg" alt="minecraft">
+                </div>
+                <div class="item">
+                    <img class="box-game-pc" src="img/ps4 witcher.jpg" alt="the witcher">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>desenvolvido por Vinicius G. Saggioratto - desafio DIO. 2022</p>
+    </footer>
+
     <script src="https://kit.fontawesome.com/c67c1fa108.js" crossorigin="anonymous"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/owl/setup.js"></script>
 </body>
+
 </html>
