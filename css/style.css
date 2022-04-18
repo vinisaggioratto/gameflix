@@ -69,25 +69,26 @@ main .destaque-principal .container .titulo{
 main .destaque-principal .container .descricao{
     font-size: 20px;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 10px 0 0 30px;
+    margin: 10px 0 20px 30px;
 
 }
 
-main .destaque-principal .leia-mais{
+.leia-mais{
     font-size: 25px;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
+    text-decoration: none;
+    color: var(--corfonteprincipal);
     border-radius: 6px;
     width: 150px;
     padding: 6px;
     background-color: rgba(136, 115, 115, 0.5);
     margin-left: 30px;
-    margin-top: 80px;
     cursor: pointer;
 
 }
 
-main .destaque-principal .leia-mais:hover{
+.leia-mais:hover{
     border: 2px solid red;
 }
 

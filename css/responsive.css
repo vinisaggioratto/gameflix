@@ -60,4 +60,11 @@ main .destaque-principal .leia-mais{
     text-align: justify;
 }
 
+/* PÁGINA CONFIRMAÇÃO DE EMAIL.*/
+
+.descricao-email{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5px;
+}
 }
