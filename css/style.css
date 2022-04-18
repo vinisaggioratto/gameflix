@@ -91,7 +91,9 @@ main .destaque-principal .leia-mais:hover{
     border: 2px solid red;
 }
 
-
+#games-pc, #games-xbox, #games-ps4{
+    margin: 0 5px 0 5px;
+}
 
 .carrosel-titulo{
     margin: 15px 0 15px 30px;
@@ -104,11 +106,54 @@ main .destaque-principal .leia-mais:hover{
     text-align: center;
 }
 
+.cadastro-email{
+    height: 104px;
+    width: 100%;
+    border-top: 2px solid var(--corfonteprincipal);
+    display: block;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.email-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.titulo-cad-email{
+    margin-top: 10px;
+}
+
+#email{
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.botao-cad-email{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #06BFFF;
+}
+
+.botao-cad-email a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .rodape{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 35px 20px 30px;
+    width: 100%;
+    padding: 10px 35px 20px 30px;
+    border-top: 2px solid var(--corfonteprincipal);
 }
 
 .rodape a{

@@ -4,11 +4,25 @@
     }    
 }
 
-@media screen and (max-width:700px){
-    header .container{
+@media screen and (max-width:905px){
+
+header .container{
         display: flex;
         flex-direction: column;
+}
+header .logocabecalho{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 
+.navcabecalho{
+    margin-bottom: 10px;
+}
+
+.navcabecalho a{
+    font-size: 20px;
 }
 
 main .destaque-principal .container .titulo{
@@ -22,6 +36,23 @@ main .destaque-principal .container .descricao{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 10px 0 0 10px;
 
+}
+
+main .destaque-principal .leia-mais{
+    margin-left: 10px;
+}
+
+.cadastro-email{
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+#email{
+    width: 280px;
+}
+.botao-cad-email{
+    margin-left: 5px;
+    width: 250px;
 }
 
 .rodape .descricao-rodape{
