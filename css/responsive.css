@@ -34,7 +34,7 @@ main .destaque-principal .container .titulo{
 main .destaque-principal .container .descricao{
     font-size: 15px;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 10px 0 0 10px;
+    margin: 10px 0 25px 10px;
 
 }
 
@@ -50,6 +50,11 @@ main .destaque-principal .leia-mais{
 #email{
     width: 280px;
 }
+
+.titulo-cad-email{
+    font-size: 16px;
+}
+
 .botao-cad-email{
     margin-left: 5px;
     width: 250px;
@@ -67,4 +72,9 @@ main .destaque-principal .leia-mais{
     text-align: left;
     margin-left: 5px;
 }
+
+.diablo2video{
+    width: 100vw; 
+}
+
 }
